@@ -1,0 +1,29 @@
+{
+  "name": "vue-ssr-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "_chalk@2.4.1@chalk": "^2.4.1",
+    "_postcss-selector-parser@3.1.1@postcss-selector-parser": "^3.1.1",
+    "_supports-color@2.0.0@supports-color": "^2.0.0",
+    "_supports-color@5.4.0@supports-color": "^5.4.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
